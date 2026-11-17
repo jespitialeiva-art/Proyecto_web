@@ -1,16 +1,64 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# StockPhoto Explorer
 
-Currently, two official plugins are available:
+Aplicación web desarrollada con **React, Vite y Tailwind CSS** que permite buscar y descargar fotografías gratuitas mediante la API de Unsplash, además de visualizar la ubicación geográfica donde fueron capturadas utilizando Google Maps.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+- React + Vite
+- JavaScript (JSX)
+- Tailwind CSS
+- Unsplash API
+- Google Maps JavaScript API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instalación
 
-## Expanding the ESLint configuration
+### 1. Clonar el repositorio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/jespitialeiva-art/Proyecto_web.git
+```
+
+### 2. Acceder al proyecto
+
+```bash
+cd Proyecto_web
+```
+
+### 3. Instalar las dependencias
+
+```bash
+npm install
+```
+
+### 4. Configurar las variables de entorno
+
+Crear un archivo `.env` en la raíz del proyecto y agregar:
+
+```env
+VITE_UNSPLASH_ACCESS_KEY=TU_ACCESS_KEY
+VITE_GOOGLE_MAPS_API_KEY=TU_GOOGLE_MAPS_API_KEY
+```
+
+Las claves deben obtenerse desde:
+
+- [Unsplash Developers](https://unsplash.com/developers)
+- [Google Cloud Console](https://console.cloud.google.com/)
+
+**Nota:** Para visualizar los mapas, se debe habilitar Google Maps JavaScript API y configurar las restricciones correspondientes.
+
+### 5. Ejecutar la aplicación
+
+```bash
+npm run dev
+```
+
+Abrir en el navegador:
+
+http://localhost:5173/
+
+## 📷 Créditos
+
+Las fotografías son proporcionadas por [Unsplash](https://unsplash.com/).
+
+Los mapas se visualizan mediante [Google Maps Platform](https://developers.google.com/maps).
