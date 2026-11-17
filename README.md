@@ -57,7 +57,7 @@ Abrir en el navegador:
 
 http://localhost:5173/
 
-## 📷 Créditos
+## Créditos
 
 Las fotografías son proporcionadas por [Unsplash](https://unsplash.com/).
 
